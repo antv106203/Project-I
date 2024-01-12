@@ -1,5 +1,5 @@
 .form {
-    -fx-background-color: #bec4cc;
+    -fx-background-color: #E4EBEB;
 }
 .error_alert {
     -fx-text-fill: #ff0000;
@@ -27,18 +27,18 @@
 
 /* Button */
 .button_style {
-    -fx-background-color: #060c54;
+    -fx-background-color:#99CFC6;
     -fx-border: none;
     -fx-border-radius: 5px;
     -fx-text-style: Verdana;
     -fx-font-size: 20px;
-    -fx-text-fill: #FFFFFF;
+    -fx-text-fill: #000000;
 }
 
 .button_style:hover {
     -fx-cursor: hand;
     -fx-text-style: bold;
-    -fx-background-color: #373c7d;
+    -fx-background-color: #99CFC6;
     -fx-scale-x: 1.02;
     -fx-scale-y: 1.02;
 }
@@ -48,7 +48,7 @@
     -fx-outline-style: solid;
 }
 .button_style:pressed {
-    -fx-background-color: #3998e6;
+    -fx-background-color: #8E90D4;
     -fx-scale-x: 1;
     -fx-scale-y: 1;
 }
