@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="50.0" prefWidth="800.0" styleClass="hoKhauCell_container" stylesheets="@../../../styles/Main/hoKhau/hoKhauCell.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox prefHeight="50.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Text fx:id="hovaten_text" strokeType="OUTSIDE" strokeWidth="0.0" text="Họ Và Tên" wrappingWidth="121.86639404296875" />
+            <Text fx:id="magiaytamtru_text" strokeType="OUTSIDE" strokeWidth="0.0" text="MGTT" wrappingWidth="71.2211685180664" />
+            <Text fx:id="manhankhau_text" strokeType="OUTSIDE" strokeWidth="0.0" text="MNK" wrappingWidth="69.94609451293945" />
+            <Text fx:id="noisinh_text" strokeType="OUTSIDE" strokeWidth="0.0" text="Nơi Sinh" wrappingWidth="84.787353515625" />
+            <Text fx:id="tungay_text" strokeType="OUTSIDE" strokeWidth="0.0" text="Từ Ngày" wrappingWidth="118.74986267089844" />
+            <Text fx:id="denngay_text" strokeType="OUTSIDE" strokeWidth="0.0" text="Đến Ngày" wrappingWidth="137.98736953735352" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
