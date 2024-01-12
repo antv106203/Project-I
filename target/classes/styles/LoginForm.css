@@ -8,21 +8,21 @@
     -fx-font-size: 14px;
 }
 .login_switchRegister:hover {
-    -fx-text-fill: #47f00a;
-    -fx-font-size: 24px;
+    -fx-text-fill: #99CFC6;
+
     -fx-cursor: hand;
 }
 .login_switchRegister:pressed {
-    -fx-text-fill: red;
+    -fx-text-fill: #8E90D4;
 }
 
 .register_switchLogin:hover {
-    -fx-text-fill: #47f00a;
-    -fx-font-size: 24px;
+    -fx-text-fill: #99CFC6;
+
     -fx-cursor: hand;
 }
 .register_switchLogin:pressed {
-    -fx-text-fill: red;
+    -fx-text-fill: #8E90D4;
 }
 
 /* Button */
@@ -66,15 +66,15 @@
 
 }
 .slider_style .label1 {
-    -fx-font-size: 32px;
+
     -fx-font-weight: Bold;
 }
 .slider_style .timeLabel {
-    -fx-font-size: 54px;
+
     -fx-font-weight: Bold;
 }
 .slider_style .dateLabel {
-    -fx-font-size: 24px;
+
     -fx-font-style: normal;
 }
 .slider_style FontAwesomeIconView {
