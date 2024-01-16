@@ -958,6 +958,19 @@ public class DatabaseConnection {
         }
 
     }
+
+    public boolean checkTamTru(String maNhanKhau) {
+        String query = "SELECT COUNT(MAGIAYTAMTRU) FROM TAMTRU WHERE MANHANKHAU =  " + maNhanKhau;
+        ResultSet resultSet = executeQuery(query);
+        try {
+            resultSet.next();
+            if (resultSet.getInt(1) == 0) return true; // dang trong tinh trang tam tru
+            else return false; // khong tam tru
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+
+    }
 }
 
 

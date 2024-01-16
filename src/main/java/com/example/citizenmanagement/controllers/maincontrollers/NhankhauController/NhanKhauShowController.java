@@ -64,18 +64,14 @@ int bit;
         ghi_chu_text.setDisable(true);
         ngay_tao_date.setDisable(true);
 
-
-        if (!Model.getInstance().getDatabaseConnection().checkKhaiTu(
-                Model.getNhanKhauDuocChon().getSo_nhan_khau())) {
-            khai_tu_btn.setDisable(true);
-            tam_vang_btn.setDisable(true);
-        }
-        else{
-            khai_tu_btn.setDisable(false);
-            if (!Model.getInstance().getDatabaseConnection().checkTamVang(Model.getNhanKhauDuocChon().getSo_nhan_khau()))
+        if (!Model.getInstance().getDatabaseConnection().checkTamVang(Model.getNhanKhauDuocChon().getSo_nhan_khau()))
                 tam_vang_btn.setDisable(true);
-            else tam_vang_btn.setDisable(false);
+        else if(!Model.getInstance().getDatabaseConnection().checkTamTru(Model.getNhanKhauDuocChon().getSo_nhan_khau())){
+            tam_vang_btn.setDisable(true);
+            khai_tu_btn.setDisable(true);
         }
+        else tam_vang_btn.setDisable(false);
+
 
 
     my_choise_box.setItems(FXCollections.observableArrayList(Gioitinh));

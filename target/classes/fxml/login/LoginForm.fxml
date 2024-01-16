@@ -44,7 +44,7 @@
          </font>
       </PasswordField>
       <Hyperlink fx:id="login_forgotPassword" layoutX="53.0" layoutY="376.0" onAction="#onForgotClicked" onMouseClicked="#onForgotClicked" text="Quên mật khẩu?" />
-      <Button fx:id="login_btn" layoutX="50.0" layoutY="329.0" mnemonicParsing="false" onMouseClicked="#onLoginBtnClicked" prefHeight="40.0" prefWidth="300.0" styleClass="button_style" stylesheets="@../../styles/LoginForm.css" text="Đăng nhập">
+      <Button fx:id="login_btn" layoutX="50.0" layoutY="329.0" mnemonicParsing="false" onMouseClicked="#onLoginBtnClicked" prefHeight="40.0" prefWidth="300.0" styleClass="button_style1" stylesheets="@../../styles/LoginForm.css" text="Đăng nhập">
          <font>
             <Font name="Verdana" size="18.0" />
          </font>
@@ -107,7 +107,7 @@
             <Font name="Verdana" size="14.0" />
          </font>
       </TextField>
-      <Button fx:id="register_btn" layoutX="63.0" layoutY="344.0" mnemonicParsing="false" onMouseClicked="#onRegisterBtnClicked" prefHeight="40.0" prefWidth="300.0" styleClass="button_style" stylesheets="@../../styles/LoginForm.css" text="Đăng ký">
+      <Button fx:id="register_btn" layoutX="63.0" layoutY="344.0" mnemonicParsing="false" onMouseClicked="#onRegisterBtnClicked" prefHeight="40.0" prefWidth="300.0" styleClass="button_style1" stylesheets="@../../styles/LoginForm.css" text="Đăng ký">
          <font>
             <Font name="Verdana" size="18.0" />
          </font>
@@ -192,7 +192,7 @@
                <Font name="Verdana" size="14.0" />
             </font>
          </TextField>
-         <Button fx:id="forgot_confirmBtn1" layoutX="63.0" layoutY="344.0" mnemonicParsing="false" onAction="#onForgotConfirmBtn1" prefHeight="40.0" prefWidth="300.0" styleClass="button_style" stylesheets="@../../styles/LoginForm.css" text="Xác nhận">
+         <Button fx:id="forgot_confirmBtn1" layoutX="63.0" layoutY="344.0" mnemonicParsing="false" onAction="#onForgotConfirmBtn1" prefHeight="40.0" prefWidth="300.0" styleClass="button_style1" stylesheets="@../../styles/LoginForm.css" text="Xác nhận">
             <font>
                <Font name="Verdana" size="18.0" />
             </font>
@@ -237,7 +237,7 @@
                <Font name="Verdana" size="30.0" />
             </font>
          </Label>
-         <Button fx:id="forgot_confirmBtn2" layoutX="63.0" layoutY="344.0" mnemonicParsing="false" onAction="#onForgotConfirmBtn2" prefHeight="40.0" prefWidth="300.0" styleClass="button_style" stylesheets="@../../styles/LoginForm.css" text="Xác nhận">
+         <Button fx:id="forgot_confirmBtn2" layoutX="63.0" layoutY="344.0" mnemonicParsing="false" onAction="#onForgotConfirmBtn2" prefHeight="40.0" prefWidth="300.0" styleClass="button_style1" stylesheets="@../../styles/LoginForm.css" text="Xác nhận">
             <font>
                <Font name="Verdana" size="18.0" />
             </font>

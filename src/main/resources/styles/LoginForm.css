@@ -32,7 +32,7 @@
     -fx-border-radius: 5px;
     -fx-text-style: Verdana;
     -fx-font-size: 20px;
-    -fx-text-fill: #000000;
+    -fx-text-fill: #FFFFFF;
 }
 
 .button_style:hover {
@@ -48,6 +48,33 @@
     -fx-outline-style: solid;
 }
 .button_style:pressed {
+    -fx-background-color: #8E90D4;
+    -fx-scale-x: 1;
+    -fx-scale-y: 1;
+}
+
+.button_style1 {
+    -fx-background-color:#99CFC6;
+    -fx-border: none;
+    -fx-border-radius: 5px;
+    -fx-text-style: Verdana;
+    -fx-font-size: 20px;
+    -fx-text-fill: #000000;
+}
+
+.button_style1:hover {
+    -fx-cursor: hand;
+    -fx-text-style: bold;
+    -fx-background-color: #99CFC6;
+    -fx-scale-x: 1.02;
+    -fx-scale-y: 1.02;
+}
+
+.button_style1:focus {
+    -fx-outline-color: transparent;
+    -fx-outline-style: solid;
+}
+.button_style1:pressed {
     -fx-background-color: #8E90D4;
     -fx-scale-x: 1;
     -fx-scale-y: 1;

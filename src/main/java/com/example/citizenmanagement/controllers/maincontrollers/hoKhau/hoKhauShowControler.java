@@ -32,7 +32,7 @@ public class hoKhauShowControler implements Initializable {
         khoitaochoicebox();
 
         capnhat();
-
+        // phan tim kiem
         search_textfield.textProperty().addListener((observable, oldvalue, newvalue)->{
 
             if(newvalue.isEmpty()){

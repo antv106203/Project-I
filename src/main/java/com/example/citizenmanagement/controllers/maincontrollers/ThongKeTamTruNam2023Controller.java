@@ -140,6 +140,7 @@ public class ThongKeTamTruNam2023Controller implements Initializable {
                 new ThongKe("Khác", Model.getInstance().getTamTruViLyDoKhac(Integer.parseInt(timkiemnam_textfield.getText())))
         );
 
+
         Lydo.setCellValueFactory(new PropertyValueFactory<ThongKe,String>("gioitinh"));
         soluongtamtru_lydo.setCellValueFactory(new PropertyValueFactory<ThongKe,Integer>("soluonggioitinh"));
         tableLyDoTamTru.setItems(list1);
